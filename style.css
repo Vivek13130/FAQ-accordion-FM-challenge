@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(275, 100%, 97%);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#topimg{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+}
+
+#header{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+#header h1{
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 2px solid rgb(204, 0, 255);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin: 3%;
+    max-width: 660px;
+    min-width: 360px;
+    background-color: white;
+
+}
+
+.que{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.mainque{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid pink; */
+    justify-content: space-between;
+    padding: 1.2rem 0 1.2rem  0;
+}
+
+.ans{
+    display: none;
+    /* border: 1px solid; */
+    padding-bottom: 1rem;
+}
+
+.bottomborder{
+    border: 1px solid hsla(293, 100%, 49%, 0.121);
+}
+
